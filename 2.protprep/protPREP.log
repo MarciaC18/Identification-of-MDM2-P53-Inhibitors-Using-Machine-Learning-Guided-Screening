@@ -1,0 +1,132 @@
+--------------------------------------------------------------------
+This file contains some output information regarding the preperation
+process of the protein for spherical boundary conditions in Q.
+
+The command line input was:
+protPREP.py -p MDM2_prep.pdb -r 22 -c [-22.392:11.483:-16.617] -w=False -V=True
+
+Date:                                            2025-06-04 09:24:17
+Inputfile:                                             MDM2_prep.pdb
+Sphere center:                             -22.392   11.483  -16.617
+Sphere radius:                                                  22.0
+Total charge in sphere:                                           -1
+--------------------------------------------------------------------
+The following residues have been decharged:
+Q_RESN    PDB_IN    CHAIN     RESNAME   
+12        12                  ARG       
+14        14                  LYS       
+19        19                  LYS       
+22        22                  LYS       
+29        29                  ASP       
+48        48                  ARG       
+67        67                  ASP       
+81        81                  LYS       
+88        88                  ARG       
+--------------------------------------------------------------------
+The following charged residues are in the sphere:
+Q_RESN    PDB_IN    CHAIN     RESNAME   
+6         6                   GLU       
+8         8                   GLU       
+28        28                  LYS       
+34        34                  LYS       
+35        35                  GLU       
+47        47                  LYS       
+51        51                  ASP       
+63        63                  ASP       
+77        77                  LYS       
+78        78                  GLU       
+80        80                  ARG       
+--------------------------------------------------------------------
+The following S-S bonds have been found:
+Q_CYS1    Q_CYS2    PDB_CYS1  CHAIN     PDB_CYS2  CHAIN     
+--------------------------------------------------------------------
+The following is a mapping of residue numbers in Q and the input 
+pdbfile "MDM2_prep.pdb":
+Q_RESN    PDB_IN    CHAIN     RESNAME   
+1         1                   GLN       
+2         2                   ILE       
+3         3                   PRO       
+4         4                   ALA       
+5         5                   SER       
+6         6                   GLU       
+7         7                   GLN       
+8         8                   GLU       
+9         9                   THR       
+10        10                  LEU       
+11        11                  VAL       
+12        12                  ARN       
+13        13                  PRO       
+14        14                  LYN       
+15        15                  PRO       
+16        16                  LEU       
+17        17                  LEU       
+18        18                  LEU       
+19        19                  LYN       
+20        20                  LEU       
+21        21                  LEU       
+22        22                  LYN       
+23        23                  SER       
+24        24                  VAL       
+26        26                  ALA       
+27        27                  GLN       
+28        28                  LYS       
+29        29                  ASH       
+30        30                  THR       
+31        31                  TYR       
+32        32                  THR       
+33        33                  MET       
+34        34                  LYS       
+35        35                  GLU       
+36        36                  VAL       
+37        37                  LEU       
+38        38                  PHE       
+39        39                  TYR       
+40        40                  LEU       
+42        42                  GLN       
+43        43                  TYR       
+44        44                  ILE       
+45        45                  MET       
+46        46                  THR       
+47        47                  LYS       
+48        48                  ARN       
+49        49                  LEU       
+50        50                  TYR       
+51        51                  ASP       
+52        52                  ALA       
+53        53                  ALA       
+54        54                  GLN       
+55        55                  GLN       
+56        56                  HIE       
+57        57                  ILE       
+58        58                  VAL       
+59        59                  TYR       
+60        60                  CYS       
+61        61                  SER       
+62        62                  ASN       
+63        63                  ASP       
+64        64                  LEU       
+65        65                  LEU       
+67        67                  ASH       
+68        68                  LEU       
+69        69                  PHE       
+71        71                  VAL       
+72        72                  PRO       
+73        73                  SER       
+74        74                  PHE       
+75        75                  SER       
+76        76                  VAL       
+77        77                  LYS       
+78        78                  GLU       
+79        79                  HIE       
+80        80                  ARG       
+81        81                  LYN       
+82        82                  ILE       
+83        83                  TYR       
+84        84                  THR       
+85        85                  MET       
+86        86                  ILE       
+87        87                  TYR       
+88        88                  ARN       
+89        89                  ASN       
+90        90                  LEU       
+91        91                  CVAL      

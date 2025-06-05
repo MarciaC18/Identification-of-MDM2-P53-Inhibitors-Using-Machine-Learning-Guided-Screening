@@ -1,0 +1,243 @@
+
+Build and version information
+
+Build number 6.0.9
+Build date   20250515
+Built:       
+      by     ma.castillot
+      on     sn4622119831
+      git id d993af2a20623fcf9dc867341fb6902d395c0ec9
+      with   GNU Fortran GCC 11.4.1 20231218 Red Hat 11.4.1-3
+qprep version 6.0.9 , git id=d993af2a20623fcf9dc867341fb6902d395c0ec9 initialising
+Current date 2025- 6- 4 and time  4:24:17
+
+Welcome in qprep modification date 20250515
+
+ Q6, Copyright © 2017 Johan Åqvist, John Marelius, Shina Caroline Lynn Kamerlin and Paul Bauer
+ Q6 comes with ABSOLUTELY NO WARRANTY.  This is free software, and you are welcome
+ to redistribute it under certain conditions. For details, add the --help flag.
+
+Qprep> 
+Reading molecular library /home/ma.castillot/qligfep/FF/OPLS2015.lib
+
+name  atoms  net Q  bonds  rules   imps Q-grps
+ALA      10   0.00      9      0      2      3
+ARG      24   1.00     23      0      6      4
+ARN      23   0.00     22      0      4      4
+ASH      13   0.00     12      0      3      3
+ASN      14   0.00     13      0      4      5
+ASP      12  -1.00     11      0      3      3
+CALA     11  -1.00     10      0      2      2
+CARG     25   0.00     24      0      6      3
+CARN     24  -0.90     23      0      5      3
+>>> Warning: fractional charge = -0.90000 on group no.  1
+CASH     14  -1.00     13      0      3      3
+CASN     15  -1.00     14      0      4      4
+CASP     13  -2.00     12      0      3      2
+CCYS     12  -1.00     11      0      2      2
+CCYX     11  -1.00     10      0      2      2
+CGLH     17  -1.00     16      0      3      3
+CGLN     18  -1.00     17      0      4      5
+CGLU     16  -2.00     15      0      3      3
+CGLY      8  -1.00      7      0      2      1
+CHID     18  -1.00     18      0      6      2
+CHIE     18  -1.00     18      0      6      2
+CHIP     19  -0.00     19      0      7      2
+CILE     20  -1.00     19      0      2      5
+CLA       1  -1.00      0      0      0    none, creating default
+CLEU     20  -1.00     19      0      2      5
+CLYS     23   0.00     22      0      2      5
+CMET     18  -1.00     17      0      2      3
+CPHE     21  -1.00     21      0      8      7
+CPRO     15  -0.87     15      0      2      3
+>>> Warning: fractional charge = -0.87000 on group no.  1
+CSER     12  -1.00     11      0      2      2
+CTHR     15  -1.00     14      0      2      3
+CTRP     25  -1.00     26      0     11      7
+CTYR     22  -1.00     22      0      8      7
+CVAL     17  -1.00     16      0      2      4
+CYS      11   0.00     10      0      2      3
+CYX      10   0.00      9      0      2      3
+GLH      16   0.00     15      0      3      4
+GLN      17   0.00     16      0      4      6
+GLU      15  -1.00     14      0      3      4
+GLY       7   0.00      6      0      2      2
+HID      17   0.00     17      0      6      3
+HIE      17   0.00     17      0      6      3
+HIP      18   1.00     18      0      7      3
+ILE      19   0.00     18      0      2      6
+LEU      19   0.00     18      0      2      6
+LYS      22   1.00     21      0      2      6
+LYN      21   0.00     20      0      2      6
+MET      17  -0.00     16      0      2      4
+NALA     12   1.00     11      0      1      3
+NARG     26   2.00     25      0      5      4
+NASH     15   1.00     14      0      2      3
+NASN     16   1.00     15      0      3      5
+NASP     14  -0.00     13      0      2      3
+NCYS     13   1.00     12      0      1      3
+NCYX     12   1.00     11      0      1      3
+NGLH     18   1.00     17      0      2      4
+NGLN     19   1.00     18      0      3      6
+NGLU     17  -0.00     16      0      2      4
+NGLY      9   1.00      8      0      1      2
+NHID     19   1.00     19      0      5      3
+NHIE     19   1.00     19      0      5      3
+NHIP     20   2.00     20      0      6      3
+NILE     21   1.00     20      0      1      6
+NLEU     21   1.00     20      0      1      6
+NLYS     24   2.00     23      0      1      6
+NMET     19   1.00     18      0      1      4
+NPHE     22   1.00     22      0      7      8
+NPRO     17   1.07     17      0      1      4
+>>> Warning: fractional charge =  1.07000 on group no.  1
+NSER     13   1.00     12      0      1      3
+NTHR     16   1.00     15      0      1      4
+NTRP     26   1.00     27      0     10      8
+NTYR     23   1.00     23      0      7      8
+NVAL     18   1.00     17      0      1      5
+PHE      20   0.00     20      0      8      8
+PRO      14   0.00     14      0      2      4
+SER      11  -0.00     10      0      2      3
+SOD       1   1.00      0      0      0      1
+THR      14  -0.00     13      0      2      4
+TIP3      3   0.00      3      0      0      1
+HOH       3   0.00      3      0      0      1
+WAT       3   0.00      3      0      0      1
+TRP      24   0.00     25      0     11      8
+TYR      21   0.00     21      0      8      8
+VAL      16   0.00     15      0      2      5
+MG2       7   2.00     18      0      0      1
+LTRP     25  -1.00     26      0     11      7
+Na+       1   1.00      0      0      0    none, creating default
+POP      52   0.00     51      0      3     18
+PO4       6  -2.00      5      0      0      1
+ACE       6   0.00      5      0      1      2
+NMA       6   0.00      5      0      1      1
+ZN        1   2.00      0      0      0    none, creating default
+
+Accumulated no. of library entries loaded =  91
+
+Qprep> 
+Reading force field parameter file.
+Forcefield name:               OPLS-AA/M
+Forcefield type:               AMBER
+Lennard-Jones combination rule:GEOMETRIC
+Scaling of 1-4 electrostatics: 0.500
+Cut-off rule:                  switching atoms
+Improper potential:            PERIODIC
+Improper generation:           EXPLICIT
+Coulomb constant:              332.0716
+Read  102 atom types
+>>>>> WARNING: No SYBYL name for one or more atom types.
+Read    0 atom type alias names
+Read    0 LJ type 2 pairs
+Read  191 bond types
+Read   51 unique bond parameters
+>>>>> WARNING: No SYBYL bond type for one or more bond types.
+Read  501 angle types
+Read   78  unique angle parameters
+Read 1647 torsion types
+Read  229 unique torsion parameters
+Read  121 improper types
+Force field parameters successfully read.
+
+Qprep> 
+PDB file contains   744 atoms.
+The number of atoms in the topology will be  1512
+molecule    1: GLN     1 - CVAL   91
+
+Successfully read PDB file with    1 molecules,
+   91 residues totally (   91 in solute).
+ 1512 atoms totally ( 1512 in solute).
+
+Sequence listing:
+
+GLN  ILE  PRO  ALA  SER  GLU  GLN  GLU  THR  LEU  VAL  ARN  PRO  LYN  PRO  LEU 
+LEU  LEU  LYN  LEU  LEU  LYN  SER  VAL  GLY  ALA  GLN  LYS  ASH  THR  TYR  THR 
+MET  LYS  GLU  VAL  LEU  PHE  TYR  LEU  GLY  GLN  TYR  ILE  MET  THR  LYS  ARN 
+LEU  TYR  ASP  ALA  ALA  GLN  GLN  HIE  ILE  VAL  TYR  CYS  SER  ASN  ASP  LEU 
+LEU  GLY  ASH  LEU  PHE  GLY  VAL  PRO  SER  PHE  SER  VAL  LYS  GLU  HIE  ARG 
+LYN  ILE  TYR  THR  MET  ILE  TYR  ARN  ASN  LEU  CVAL
+
+Qprep> Qprep> 
+Simulation sphere centre                   :    -22.392  11.483 -16.617
+Simulation radius                          :     22.000
+Qprep> 
+Solvation sphere centre                   :    -22.392  11.483 -16.617
+Library entry used to generate solvent  :       HOH 
+Radius of solvent sphere                =      22.00 A
+Grid spacing                            =       3.10 A 
+No. of solvent molecules in the sphere:  1503
+Minimum distance to solute heavy atoms:  3.00 A
+No. of solvent molecules to add to the system:   947
+Qprep> Assigned  4353 atom types.
+Assigned  4353 atomic charges.
+Made      1527 solute bonds.
+Made         0 extra bonds.
+Made      2841 solvent bonds.
+Made      2765 solute angles.
+Made       947 solvent angles.
+Made      5565 solute torsions.
+Made         0 solvent torsions.
+Made       283 solute impropers.
+Made         0 solvent impropers.
+Made      4027 entries in the 1-4 neighbour list.
+Made         0 entries in the long-range 1-4 neighbour list.
+Made      8080 entries in list of excluded neighbours.
+Made         0 entries in list of long-range excluded neighbours.
+>>> WARNING: Positioning of hydrogen  1116 bound to atom  1115 didn't converge.
+Potential is   17.398 kcal/mol.
+Made       768 solute hydrogens.
+Made      1894 solvent hydrogens.
+Made      438 solute  charge groups comprising a total of   1463 atoms.
+Made      947 solvent charge groups comprising a total of   2841 atoms.
+Skipped    14excluded charge groups comprising a total of     49 atoms.
+Effective water radius                     : 21.26
+Topology successfully generated.
+Qprep> 
+---------------------------- Writing topology file ---------------------------
+solute atoms                :   1512
+solvent atoms               :   2841
+solvent mol atoms           :      3
+solvent dielectric as num*10:  80100
+co-ordinates                :  13059
+integer atom codes          :   4353
+solute bonds                :   1527
+solvent bonds               :   2841
+bond parameters             :     27
+solute angles               :   2765
+solvent angles              :    947
+angle parameters            :     43
+torsions                    :   5565
+torsion parameters          :    172
+impropers                   :    283
+improper parameters         :     24
+charges                     :   4353
+total charge of not excluded:  -2.00
+charge groups               :   1385
+atom type parameters        :    102
+polar LJ pairs              :      0
+neighbour list              :   4027
+long-range neighbour list   :      0
+neighbour exclusion list    :   8080
+long-range exclusions       :      0
+residues                    :   1038
+molecules                   :    948
+Atom type names             :    102
+SYBYL type information      :    102
+excluded atom list          :     49
+
+Qprep> 
+
+PDB file successfully written.
+
+Qprep> The current mask contains  4353 atoms.
+Mask cleared.
+Qprep> The current mask contains     0 atoms.
+    78 atoms added to mask which now contains    78 atoms.
+Qprep> 
+
+PDB file successfully written.
+
+Qprep> 
