@@ -1,0 +1,6 @@
+manuscripts/*.aux
+manuscripts/*.bbl
+manuscripts/*.blg
+manuscripts/*.log
+manuscripts/*.out
+manuscripts/acs-*.bib

@@ -1,0 +1,69 @@
+\providecommand{\latin}[1]{#1}
+\makeatletter
+\providecommand{\doi}
+  {\begingroup\let\do\@makeother\dospecials
+  \catcode`\{=1 \catcode`\}=2 \doi@aux}
+\providecommand{\doi@aux}[1]{\endgroup\texttt{#1}}
+\makeatother
+\providecommand*\mcitethebibliography{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+  {\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{6}
+\providecommand*\natexlab[1]{#1}
+\providecommand*\mciteSetBstSublistMode[1]{}
+\providecommand*\mciteSetBstMaxWidthForm[2]{}
+\providecommand*\mciteBstWouldAddEndPuncttrue
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*\mciteBstWouldAddEndPunctfalse
+  {\let\EndOfBibitem\relax}
+\providecommand*\mciteSetBstMidEndSepPunct[3]{}
+\providecommand*\mciteSetBstSublistLabelBeginEnd[3]{}
+\providecommand*\EndOfBibitem{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}{(\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd
+  {\mcitemaxwidthsubitemform\space}
+  {\relax}
+  {\relax}
+
+\bibitem[Aqvist and Marelius(2001)Aqvist, and Marelius]{aqvist2001lie}
+Aqvist,~J.; Marelius,~J. The Linear Interaction Energy Method for Predicting
+  Ligand Binding Free Energies. \emph{Comb. Chem. High Throughput Screen.}
+  \textbf{2001}, \emph{4}, 613--626\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Guti{\'e}rrez-de Ter{\'a}n and {\AA}qvist(2012)Guti{\'e}rrez-de
+  Ter{\'a}n, and {\AA}qvist]{gutierrez2012lie}
+Guti{\'e}rrez-de Ter{\'a}n,~H.; {\AA}qvist,~J. \emph{Computational Drug
+  Discovery and Design}; Humana Press, 2012; pp 305--323\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bauer \latin{et~al.}(2018)Bauer, Barrozo, Purg, Amrein, Esguerra,
+  Wilson, Major, {\AA}qvist, and Kamerlin]{bauer2018q6}
+Bauer,~P.; Barrozo,~A.; Purg,~M.; Amrein,~B.~A.; Esguerra,~M.; Wilson,~P.~B.;
+  Major,~D.~T.; {\AA}qvist,~J.; Kamerlin,~S. C.~L. Q6: A Comprehensive Toolkit
+  for Empirical Valence Bond and Related Free Energy Calculations.
+  \emph{SoftwareX} \textbf{2018}, \emph{7}, 388--395\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Q Users}(2026)]{q6repo}
+{Q Users} Q6 Repository -- EVB, FEP and LIE Simulator.
+  \url{https://github.com/qusers/Q6}, 2026; Accessed 2026-03-30\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Q Users}(2026)]{qligfeprepo}
+{Q Users} QLigFEP Repository. \url{https://github.com/qusers/qligfep}, 2026;
+  Accessed 2026-03-30\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}

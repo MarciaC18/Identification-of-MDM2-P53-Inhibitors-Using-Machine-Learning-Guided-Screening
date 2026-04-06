@@ -1,0 +1,52 @@
+\begin{tikzpicture}[
+  font=\sffamily,
+  >=Latex,
+  box/.style={
+    rounded corners=3pt,
+    draw=#1,
+    fill=#1!8,
+    line width=0.9pt,
+    minimum width=3.1cm,
+    minimum height=1.2cm,
+    align=center
+  },
+  decision/.style={
+    diamond,
+    aspect=2.0,
+    draw=#1,
+    fill=#1!8,
+    line width=0.9pt,
+    inner xsep=1.2ex,
+    inner ysep=1.0ex,
+    align=center
+  },
+  arrow/.style={-{Latex[length=3mm]}, line width=0.9pt, draw=black!70},
+  note/.style={font=\small\itshape, align=center}
+]
+
+\definecolor{navy}{RGB}{30,65,110}
+\definecolor{teal}{RGB}{53,137,132}
+\definecolor{orange}{RGB}{214,132,61}
+\definecolor{crimson}{RGB}{160,63,73}
+
+\node[box=navy] (start) at (0,0) {Prepared protein, ligand,\\and Q6 parameter inputs};
+\node[box=teal, minimum width=4.2cm, minimum height=1.5cm] (lig) at (-4.6,-2.4) {Ligand-in-water\\prep, equilibration, production\\\(\langle V_{\mathrm{el}}^{\mathrm{lig,wat}}\rangle,\ \langle V_{\mathrm{vdW}}^{\mathrm{lig,wat}}\rangle\)};
+\node[box=teal, minimum width=4.6cm, minimum height=1.5cm] (comp) at (4.6,-2.4) {Protein--ligand complex\\prep, equilibration, production\\\(\langle V_{\mathrm{el}}^{\mathrm{comp}}\rangle,\ \langle V_{\mathrm{vdW}}^{\mathrm{comp}}\rangle\)};
+\node[box=orange, minimum width=4.6cm, minimum height=1.5cm] (logs) at (0,-5.2) {Q-surr.\ energy extraction\\from production log files};
+\node[decision=crimson] (qc) at (0,-7.9) {\(\varepsilon = \tfrac{1}{2}\lvert \bar{V}_1 - \bar{V}_2 \rvert\)\\[1pt]
+\(< 1\ \mathrm{kcal\,mol^{-1}}\)?};
+\node[box=crimson, minimum width=5.3cm, minimum height=1.9cm] (calc) at (0,-10.9) {LIE calculation and analysis\\\(\Delta G_{\mathrm{bind}} = \beta\,\Delta\langle V_{\mathrm{el}}\rangle + \alpha\,\Delta\langle V_{\mathrm{vdW}}\rangle + \gamma\)\\CSV summaries + regression plots};
+
+\draw[arrow] (start) -- (lig);
+\draw[arrow] (start) -- (comp);
+\draw[arrow] (lig) -- (logs);
+\draw[arrow] (comp) -- (logs);
+\draw[arrow] (logs) -- (qc);
+\draw[arrow] (qc) -- (calc);
+
+\node[note] at (-4.6,-3.8) {Ligand-in-water interaction\\averages used as the reference state};
+\node[note] at (4.6,-3.8) {Complex-state interaction averages\\from ligand--protein and ligand--water terms};
+\node[note] at (0,-6.3) {Plots and reports identify\\unstable trajectories};
+\node[note] at (0,-9.3) {If the threshold fails, extension inputs are\\written under \texttt{check\_errors/}};
+
+\end{tikzpicture}

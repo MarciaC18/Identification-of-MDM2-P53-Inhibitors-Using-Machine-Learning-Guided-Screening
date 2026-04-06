@@ -1,0 +1,40 @@
+\documentclass[journal=jcisd8,manuscript=suppinfo]{achemso}
+
+\SectionNumbersOn
+
+\usepackage[version=4]{mhchem}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+
+\author{Marcia Yineth Castillo}
+\affiliation{Departamento de Qu\'imica, Universidad de los Andes, Bogot\'a 111711, Colombia}
+\author{Gian Pietro Miscione}
+\affiliation{Departamento de Qu\'imica, Universidad de los Andes, Bogot\'a 111711, Colombia}
+\author{Hugo Guti\'errez-de-Ter\'an}
+\affiliation{Centro de Investigaci\'on en Nanomateriales y Nanotecnolog\'ia (CINN), Consejo Superior de Investigaciones Cient\'ificas (CSIC), Edificio FINBA-ISPA, 33011 Oviedo, Asturias, Spain}
+\author{Jordi Vill\`a-Freixa}
+\email{jordi.villa@uvic.cat}
+\affiliation{Universitat de Vic -- Universitat Central de Catalunya, 08500 Vic, Spain}
+\alsoaffiliation{Institute for Research and Innovation in Life and Health Sciences in Central Catalonia (IRIS-CC), 08500 Vic, Spain}
+
+\title{Supporting Information for MARCIAH: A Q6 Workflow for Protein--Ligand Linear Interaction Energy Calculations}
+
+\begin{document}
+
+\section{Minimal Command-Line Test}
+
+The executable MARCIAH distribution provides a minimal command-line test. The test is launched through \texttt{scripts/run\_cli\_example\_test.sh}, uses the bundled ligand and complex production logs, runs \texttt{analyze\_LIE\_noqgui.py}, and writes a CSV file with the resulting LIE estimate under \texttt{results/}.
+
+\section{Software Environment}
+
+The Python-side dependencies used by the analysis scripts are defined in the root-level \texttt{environment.yml} file of the MARCIAH repository. Installation is automated through \texttt{scripts/setup\_conda\_env.sh}, which creates the \texttt{marciah-q6-lie} Conda environment.
+
+\section{Required File Classes}
+
+The workflow requires ligand and complex inputs that are compatible with Q6. At minimum, one calculation uses ligand and complex topology files, ligand library and parameter definitions, FEP files, equilibration restart files or the inputs needed to generate them, production input files, and production log files for the final LIE analysis step.
+
+\section{Directory Schema}
+
+The executable repository is organized around \texttt{ligands/}, \texttt{complex/}, root-level analysis scripts, and \texttt{scripts/} for installation and CLI testing. The root \texttt{README.md} documents the execution sequence used by the bundled example.
+
+\end{document}

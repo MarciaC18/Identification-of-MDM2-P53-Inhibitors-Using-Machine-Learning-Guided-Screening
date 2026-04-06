@@ -1,14 +1,40 @@
-# Identification-of-MDM2-P53-Inhibitors-Using-Machine-Learning-Guided-Screening
-[![DOI](https://zenodo.org/badge/952685728.svg)](https://doi.org/10.5281/zenodo.17058139)
+# Marcia_MDMD2-P53
 
-This Jupyter notebook helps users develop and evaluate machine-learning models for structure-based virtual screening, specifically targeting MDM2 at the p53 binding site. The models are classification-based and can be trained with or without hyperparameter tuning and cross-validation.
+This repository contains the broader research material associated with the MDM2/p53 project. It is not the standalone software distribution for the MARCIAH workflow.
 
-This methodology and code are based on the Nature Protocols paper: Tran-Nguyen, V. K., Junaid, M., Simeon, S., & Ballester, P. J. (2023). A practical guide to machine-learning scoring for structure-based virtual screening. We have made some changes to hyperparameter optimization and added cross-validation for each model.
+## Scope
 
-Before running the notebook, we suggest configuring the protocol-env environment. This can be done using the protocol-env.yml file available in the https://github.com/vktrannguyen/MLSF-protocol.
+The repository groups together project assets that support ongoing computational work, manuscript writing, and method development. The exact contents may evolve as the project grows, but the current structure includes:
 
-<p align="center">
-  <img src="Figures/Figure_2.png" alt="Methodology workflow" width="1000"/>
-</p>
-<p align="center"><em>Methodology workflow of this study</em></p>
+- `manuscripts/` for paper drafts, supporting information, figures, and submission notes
+- `Q6/`, `equilibration/`, and `protprep/` for project-specific setup and simulation material
+- `Data/`, `Figures/`, and `Performance Metrics Calculations/` for analysis and reporting assets
+- force-field and ligand-preparation files used during project development
 
+## Manuscripts
+
+The `manuscripts/` directory is designed to host multiple papers. The current manuscript set is centered on MARCIAH and includes:
+
+- `manuscripts/MARCIAH_main.tex`
+- `manuscripts/MARCIAH_SI.tex`
+
+Build from that directory with:
+
+```bash
+cd manuscripts
+make
+```
+
+## Software Repository
+
+The executable MARCIAH workflow is maintained separately in the sibling repository:
+
+```text
+../MARCIAH
+```
+
+That repository contains the installable Conda environment, command-line setup script, CLI test script, and the cleaned execution example intended for external users and software testing.
+
+## Separation of Roles
+
+This repository keeps the paper sources and the broader project context. The MARCIAH repository keeps the reusable executable workflow that can be handed to a student or reviewer for installation and testing from scratch.
